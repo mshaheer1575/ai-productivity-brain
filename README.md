@@ -28,3 +28,10 @@ Write blog post | 120 | 2025-12-01 | marketing
 - Purpose: AI task prioritization, daily plan generation, motivational nudges
 
 ---
+## Notes
+
+- Make sure to **add your HuggingFace token** in Streamlit Secrets:  
+Key: `HF_TOKEN`  
+Value: `hf_your_token_here`  
+- If the token is missing or invalid, the app will show an error and stop.  
+- App works offline/fallback deterministically if API fails.
